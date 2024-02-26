@@ -11,10 +11,10 @@
 
 .homeimage {
   background: url("../public/Logo2.png");
-  background-size: auto;
+  background-size: contain;
   background-repeat: no-repeat;
-  height: 1.5cm;
-  width: 10cm;
+  height: 20;
+  width: 3cm;
   background-position: left;
   margin-left: 20px;
  

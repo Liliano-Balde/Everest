@@ -5,10 +5,10 @@ function App() {
   return (
     <div>
       <Router>
-        <nav className="navbar align-content-center " style={{ display: "flex", backgroundColor: "#BDA62D", }} >
+        <nav className="navbar align-content-center " style={{ display: "flex", backgroundColor: "white", }} >
         <div className="homeimage"></div>
-          <Link to='/signIn'><button type="button" className="btn btn-dark" style={{ margin: "10px" }}>Sign In</button></Link>
-          <Link to='/basket'><button type="button" className="btn btn-dark" style={{ margin: "10px" }}>Basket</button></Link>
+          <Link to='/signIn'><button type="button" style={{ margin: "10px", color:"green", borderBlockColor:"green", borderStyle:"dashed"}}>Sign In</button></Link>
+          <Link to='/basket'><button type="button" style={{ margin: "10px", color:"green", borderBlockColor:"green", borderStyle:"dotted"}}>Basket</button></Link>
         </nav>
         <Routes>
           <Route path='/basket'/>
