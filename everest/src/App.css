@@ -7,6 +7,20 @@
   pointer-events: none;
 }
 
+.background-image { opacity: 0.5; }
+
+.homeimage {
+  background: url("../public/Logo2.png");
+  background-size: auto;
+  background-repeat: no-repeat;
+  height: 1.5cm;
+  width: 10cm;
+  background-position: left;
+  margin-left: 20px;
+ 
+}
+
+
 @media (prefers-reduced-motion: no-preference) {
   .App-logo {
     animation: App-logo-spin infinite 20s linear;
